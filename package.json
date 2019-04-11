@@ -1,7 +1,7 @@
 {
-  "name": "gdlauncher",
+  "name": "wingatexlauncher",
   "version": "0.11.9",
-  "description": "GDLauncher is simple, yet powerful Minecraft custom launcher with a strong focus on the user experience",
+  "description": "WingateXLauncher is simple, yet powerful Minecraft custom launcher with a strong focus on the user experience",
   "keywords": [
     "minecraft",
     "launcher",
@@ -11,21 +11,22 @@
     "redux",
     "reload",
     "sass",
-    "webpack"
+    "webpack",
+    "electron"
   ],
-  "homepage": "https://github.com/gorilla-devs/GDLauncher",
+  "homepage": "https://github.com/NanobugXL/WingateXLauncher",
   "bugs": {
-    "url": "https://github.com/gorilla-devs/GDLauncher/issues"
+    "url": "https://github.com/NanobugXL/WingateXLauncher/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gorilla-devs/GDLauncher.git"
+    "url": "git+https://github.com/NanobugXL/WingateXLauncher.git"
   },
   "license": "MIT",
   "author": {
-    "name": "GorillaDevs",
-    "email": "info@gdevs.io",
-    "url": "https://gdevs.io"
+    "name": "WestgateXL",
+    "email": "westgateteam@outlook.com",
+    "url": "https://discord.io/westgate"
   },
   "main": "./app/main.prod.js",
   "scripts": {
@@ -238,8 +239,8 @@
   "browserslist": "electron 1.6",
   "build": {
     "generateUpdatesFilesForAllChannels": true,
-    "productName": "GDLauncher",
-    "appId": "org.gorilladevs.GDLauncher",
+    "productName": "WestgateX Launcher",
+    "appId": "org.westgatestudios.WestgateXLauncher",
     "files": [
       "!node_modules",
       "app/splash.html",
@@ -295,8 +296,8 @@
     },
     "publish": {
       "provider": "github",
-      "owner": "gorilla-devs",
-      "repo": "GDLauncher",
+      "owner": "nanobugxl",
+      "repo": "WingateXLauncher",
       "private": false
     }
   },
@@ -325,5 +326,5 @@
       "git add"
     ]
   },
-  "productName": "GDLauncher"
+  "productName": "WingateXLauncher"
 }
