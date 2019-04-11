@@ -60,11 +60,11 @@ const NewUserPage = props => {
                 ...internalDivStyles[state]
               }}
             >
-              <h1 style={{ fontSize: 37 }}>Welcome to GDLauncher!</h1>
+              <h1 style={{ fontSize: 37 }}>Welcome to the WestgateXLauncher!</h1>
               <div style={{ display: 'flex' }}>
                 <p style={{ fontSize: 25 }}>
                   Hello {props.username}!<br />
-                  GDLauncher is free and open source, it wouldn't exist without
+                  WestgateXLauncher, it wouldn't exist without
                   its community. If you find any bug or have any suggestion,
                   tell us on Discord!
                   <br />
@@ -76,7 +76,7 @@ const NewUserPage = props => {
                     marginTop: '-70px',
                     paddingLeft: 30
                   }}
-                  src="https://discordapp.com/widget?id=398091532881756161&theme=dark"
+                  src="https://discordapp.com/widget?id=231623609637011456&theme=dark"
                   width="350"
                   height="515"
                   allowTransparency="true"

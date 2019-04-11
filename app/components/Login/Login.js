@@ -75,7 +75,7 @@ function Login(props) {
         }}
       >
         <div className={styles.login_form}>
-          <h1 style={{ textAlign: 'center', fontSize: 30 }}>Mojang Login</h1>
+          <h1 style={{ textAlign: 'center', fontSize: 30 }}><img src="https://i.imgur.com/P6tCDlc.png" width="300"></img></h1>
           <Form onSubmit={handleSubmit}>
             <FormItem>
               {getFieldDecorator('username', {
