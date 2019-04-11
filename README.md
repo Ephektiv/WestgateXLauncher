@@ -152,3 +152,7 @@ Here is the complete list of things we want to do. If you want to help us doing 
 Please use the link below to post a Report
 [POST HERE FIRST](https://github.com/NanobugXL/WingateXLauncher/issues/new/choose)
 [VIEW THE REPORTS HERE](https://github.com/users/NanobugXL/projects/1#column-5039882)
+
+## View Fossa Reports
+
+[VIEW FOSSA REPORTS](https://app.fossa.com/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher/history/builds)
