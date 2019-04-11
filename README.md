@@ -28,7 +28,7 @@
   </details>
 
 
-WestgateXL is a custom open source Minecraft launcher written from the ground up in electron/react. Its main goal is to make it easy and enjoyable to manage different Minecraft versions and servers, bringing the playing and modding experience to the next level!
+WestgateXL is a custom Minecraft launcher written from the ground up in electron/react. Its main goal is to make it easy and enjoyable to manage different Minecraft versions and servers, bringing the playing and modding experience to the next level!
 
 ## 🚀 Getting Started
 

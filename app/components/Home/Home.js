@@ -60,21 +60,21 @@ export default class Home extends Component<Props> {
                   marginTop: 15,
                   textAlign: 'center'
                 }}
-                title={`Welcome ${this.props.username} to GDLauncher`}
+                title={`Welcome to Wingate Studios ${this.props.username} `}
               >
                 <div className={styles.firstCard}>
                   <div>
                     <span className={styles.titleHeader}>
-                      GDLauncher is now on{' '}
+                    WestgateXLauncher is now on{' '}
                       <a
-                        href="https://patreon.com/gorilladevs"
-                        className={styles.patreonText}
+                        href="https://www.buymeacoffee.com/WestgateXL"
+                        className={styles.bymecoffeeText}
                       >
                         Patreon
                       </a>
                     </span>
-                    <div className={styles.patreonContent}>
-                      If you like GDLauncher and you would like it to have even
+                    <div className={styles.bymecoffeeContent}>
+                      If you like WestgateXLauncher and you would like it to have even
                       more features and bug fixes, consider helping us out
                       supporting the project. Happy Gaming!
                     </div>
@@ -85,15 +85,15 @@ export default class Home extends Component<Props> {
                       <a href="https://discord.gg/ZxRxPqn">Discord</a>
                     </div>
                     <div className={styles.github}>
-                      <a href="https://github.com/gorilla-devs/GDLauncher">
+                      <a href="https://github.com/nanobugxl/WestgateXLauncher">
                         Github
                       </a>
                     </div>
                     <div className={styles.instagram}>
-                      <a href="https://instagram.com/gdlauncher">Instagram</a>
+                      <a href="https://twitter.com/westgatexl">Twitter</a>
                     </div>
                     <div className={styles.facebook}>
-                      <a href="https://facebook.com/gorilladevs">Facebook</a>
+                      <a href="https://facebook.com/westgatestudios">Facebook</a>
                     </div>
                   </div>
                 </div>

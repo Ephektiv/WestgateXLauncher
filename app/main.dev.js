@@ -121,7 +121,7 @@ if (minimist(process.argv.slice(1)).i) {
     });
 
     mainWindow.loadURL(`file://${__dirname}/app.html`, {
-      userAgent: 'GDLauncher'
+      userAgent: 'WestgateXLauncher'
     });
 
     // @TODO: Use 'ready-to-show' event
@@ -142,7 +142,7 @@ if (minimist(process.argv.slice(1)).i) {
           state: 'Grrrrrrrr',
           startTimestamp: Math.floor(Date.now() / 1000),
           largeImageKey: 'default_big',
-          largeImageText: 'GDLauncher - A Custom Minecraft Launcher',
+          largeImageText: 'WestgateXLauncher - A Custom Minecraft Launcher',
           instance: false,
         });
       });

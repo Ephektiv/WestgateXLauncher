@@ -43,7 +43,7 @@ export default props => {
               secondary="depending on your connection"
             />
             <ChangelogRow
-              main="We now show the 'Playing on GDLauncher' presence on discord"
+              main="We now show the 'Playing on WingateXLauncher' presence on discord"
               secondary="hurraah!"
             />
             <ChangelogRow

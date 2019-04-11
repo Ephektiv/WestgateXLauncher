@@ -24,7 +24,7 @@ const getStartCommand = async (packName, userData, ram, javaArguments) => {
   );
   const forge = instanceConfigJSON.forgeVersion;
   let forgeJSON = null;
-  // Handling legacy GDLauncher instances without the forge- in the name
+  // Handling legacy WestgateXLauncher instances without the forge- in the name
   if (forge !== null) {
     try {
       forgeJSON = JSON.parse(

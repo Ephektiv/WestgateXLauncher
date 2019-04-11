@@ -11,7 +11,7 @@ export const APPPATH = getAppPath();
 export const DATAPATH = path.join(
   process.env.APPDATA ||
     (electron.app || electron.remote.app).getPath('userData'),
-  'GDLauncher'
+  'WestgateXLauncher'
 );
 export const LAUNCHER_FOLDER = 'launcherData';
 export const INSTANCES_FOLDER = 'instances';
@@ -45,7 +45,7 @@ export const DEFAULT_ARGS = `-Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInv
     : ''
 } -Xms256m -Xmx{_RAM_}m`;
 export const UPDATE_URL =
-  'https://raw.githubusercontent.com/gorilla-devs/GDLauncher/master/package.json';
+  'https://raw.githubusercontent.com/NanobugXL/WingateXLauncher/master/package.json';
 export const THEMES = {
   default: {
     name: 'Default',
