@@ -1,17 +1,11 @@
-# GDLauncher
+# WingateXLauncher
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub issues](https://img.shields.io/github/issues-raw/gorilla-devs/GDLauncher.svg)](https://github.com/gorilla-devs/GDLauncher/issues) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/213eb618fa59424fba7ccfcd4f1b6a09)](https://www.codacy.com/app/gorilla-devs/GDLauncher?utm_source=github.com&utm_medium=referral&utm_content=gorilla-devs/GDLauncher&utm_campaign=Badge_Grade) [![GitHub pull requests](https://img.shields.io/github/issues-pr/gorilla-devs/GDLauncher.svg)](https://github.com/gorilla-devs/GDLauncher/pulls)
-
-[![PRs Welcome](https://img.shields.io/github/license/gorilla-devs/GDLauncher.svg)](http://makeapullrequest.com) [![Travis](https://img.shields.io/travis/gorilla-devs/GDLauncher.svg)](https://travis-ci.org/gorilla-devs/GDLauncher) ![Discord](https://img.shields.io/discord/398091532881756161.svg) ![David](https://img.shields.io/david/gorilla-devs/GDLauncher.svg) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gorilla-devs/GDLauncher.svg)
-
-![](https://img.shields.io/github/release/gorilla-devs/GDLauncher.svg?style=flat)
-![Github All Releases](https://img.shields.io/github/downloads/gorilla-devs/GDLauncher/total.svg)
-[![Read the Docs (version)](https://img.shields.io/readthedocs/gdlauncher/master.svg)](https://gdlauncher.readthedocs.io/en/master/)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FNanobugXL%2FWestgateXL?ref=badge_large)
 
 <p align="center">
-    <img width="800" height="auto" src="https://i.imgur.com/kxeGu3f.png" alt="GDLauncher" />
+    <img width="800" height="auto" src="https://i.imgur.com/P6tCDlc.png" alt="WestgateXL" />
 </p>
 
 <details>
@@ -31,27 +25,26 @@
 - [Todos](#-todos)
   </details>
 
-<b>This project was previously developed in C#. That version is now outdated and not mantained but you can find the code [here](https://github.com/gorilla-devs/GDLauncher/tree/csharp_legacy_launcher)</b>
 
-GDLauncher is a custom open source Minecraft launcher written from the ground up in electron/react. Its main goal is to make it easy and enjoyable to manage different Minecraft versions and servers, bringing the playing and modding experience to the next level!
+WestgateXL is a custom open source Minecraft launcher written from the ground up in electron/react. Its main goal is to make it easy and enjoyable to manage different Minecraft versions and servers, bringing the playing and modding experience to the next level!
 
 ## 🚀 Getting Started
 
-Below you will find everything you need to know about the launcher. If you want to download a stable release you can do it from our official website (https://gdevs.io). If you want the latest testing features you can clone the repo and compile it yourself.
+Below you will find anything you need to know about the launcher. If you want to download a stable release you can do it from our official website: https://westgatestudios.xyz, if you want the latest testing features you can clone the repo and compile it yourself.
 
 ## 🎮 Download
 
-To download the latest version, you can either click [here](https://github.com/gorilla-devs/GDLauncher/releases) and select the appropriate version for your operating system, or visit our [website](https://gdevs.io).
+To download the latest version, you can either click [here](https://github.com/NanobugXL/WingateXLauncher/releases) and select the appropriate version for your operating system or visit our [website](https://westgatestudios.xyz).
 
 ## 🎨 Features (Working on)
 
-- Java Autorunner. You don't need to have java installed, a suitable version will be downloaded automatically.
-- Log console. Always know what's happening.
-- Easy installation. It's as easy as pie to install both the vanilla game and forge. No further action from the user is required.
-- Built-in autoupdater. You will never need to download a new version manually.
-- Vanilla, Forge, and Curse modpacks download and autoupdater.
-- Built-in manager for Minecraft servers.
-- Cloud sync of game saves. You will never lose your saves again!
+- Java Autorunner. (You don't need to have java installed, a suitable version will be downloaded automatically)
+- Log console. Always know what's happening
+- It's as easy as pie to install either the vanilla game and to install forge. No further action from the user is required.
+- It goes without saying that it has a built-in autoupdater, so you will never need to download a new version manually.
+- Vanilla, Forge and Curse modpacks download and autoupdater
+- Built-in manager for Minecraft servers
+- Cloud sync of game saves. With this you will never lose your saves again!
 
 You can also:
 
@@ -80,7 +73,7 @@ You need the following softwares installed:
 Install the dependencies and devDependencies.
 
 ```sh
-$ cd GDLauncher
+$ cd WingateXLauncher
 $ yarn
 ```
 
@@ -98,24 +91,21 @@ $ yarn start
 
 ### 🚚 Packaging
 
-To package apps for the local platform:
+To package apps for the MACOS platform:
 
 ```sh
 $ yarn package
 ```
 
-To package apps for all platforms:
+To package apps for the WinOS platform:
 
-First, refer to [Multi Platform Build](https://www.electron.build/multi-platform-build) for dependencies.
-
-Then,
-
-```bash
-$ yarn package-all
+```sh
+$ yarn package-win
 ```
 
 ## 🚀 Built and managed with
 
+- [vbCODE](https://code.visualstudio.com/) - Best IDE Editor
 - [Javascript](https://developer.mozilla.org/bm/docs/Web/JavaScript) - Language used
 - [React](https://reactjs.org/) - JS Framework
 - [Redux](https://redux.js.org/) - React state management
@@ -129,7 +119,7 @@ $ yarn package-all
 - [Ant Design](https://ant.design/) - UI Design Language
 
 ## 🎁 Contributing
-
+[view here first](#WingateXLauncher/blob/master/Contributing.md)
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
@@ -138,13 +128,15 @@ $ yarn package-all
 
 ## 📜 Versioning
 
-We use [SemVer](http://semver.org/) as versioning system.
+We use [SemVer](http://semver.org) as versioning system.
 
 ## ❤️ Authors
 
-- **Davide Ceschia** - _Initial work_ - [GorillaDevs](https://github.com/gorilla-devs)
+- **Davide Ceschia** - _Initial work_ - [GorillaDevs](https://github.com/gorilla-devs) Thanks bro
+- **Westgate Studios** _The Company of Course_ - [Westgate Studios](https://github.com/WestgateStudios)
+- **NanobugXL** _Because-Y-Not?_ - [NanobugXL](https://github.com/nanobugxl)
 
-See also the list of [contributors](https://github.com/gorilla-devs/GDLauncher/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/NanobugXL/WingateXLauncher/contributors) who participated in this project.
 
 ## 🎓 License
 
@@ -153,4 +145,10 @@ This project is licensed under the GNU GPL V3.0 - see the [LICENSE](LICENSE) fil
 ## ✏️ Todos
 
 Here is the complete list of things we want to do. If you want to help us doing them or want to suggest some new ideas, comment here!
-[TODOS/IDEAS](https://github.com/gorilla-devs/GDLauncher/issues/70)
+[TODOS/IDEAS](https://github.com/users/NanobugXL/projects/1#column-5040297)
+
+## ✏️ Bug Reports
+
+Please use the link below to post a Report
+[POST HERE FIRST](https://github.com/NanobugXL/WingateXLauncher/issues/new/choose)
+[VIEW THE REPORTS HERE](https://github.com/users/NanobugXL/projects/1#column-5039882)
