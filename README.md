@@ -1,12 +1,12 @@
 # WingateXLauncher
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher?ref=badge_large)
-
 <p align="center">
     <img width="800" height="auto" src="https://i.imgur.com/P6tCDlc.png" alt="WestgateXL" />
 </p>
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher?ref=badge_large)
 
 <details>
  <summary><strong>Table of Contents</strong> (click to expand)</summary>
