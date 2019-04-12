@@ -24,6 +24,7 @@
     "postinstall": "yarn flow-typed && cross-env ELECTRON_BUILDER_ALLOW_UNRESOLVED_DEPENDENCIES=true cross-env ELECTRON_BUILDER_ALLOW_UNRESOLVED_DEPENDENCIES=true electron-builder install-app-deps package.json && yarn build-dll",
     "postlint-fix": "prettier --ignore-path .eslintignore --single-quote --write '**/*.{js,jsx,json,html,css,less,scss,yml}'",
     "postlint-styles-fix": "prettier --ignore-path .eslintignore --single-quote --write '**/*.{css,scss}'",
+    "postversion": "git push --tags && yarn publish . --tag $npm_package_version && git push && echo \"Successfully released version $npm_package_version!\"",
     "preinstall": "node ./internals/scripts/CheckYarn.js",
     "prestart": "yarn build",
     "start": "cross-env NODE_ENV=production electron ./app/main.prod.js",
@@ -239,7 +240,7 @@
   "browserslist": "electron 1.6",
   "build": {
     "generateUpdatesFilesForAllChannels": true,
-    "productName": "WestgateX Launcher",
+    "productName": "WestgateXLauncher",
     "appId": "org.westgatestudios.WestgateXLauncher",
     "files": [
       "!node_modules",
