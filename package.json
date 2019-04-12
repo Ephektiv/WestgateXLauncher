@@ -1,34 +1,7 @@
 {
   "name": "westgatexlauncher",
-  "version": "1.16.2",
+  "version": "1.17.2",
   "description": "WestgateXLauncher is simple, yet powerful Minecraft custom launcher with a strong focus on the user experience",
-  "keywords": [
-    "minecraft",
-    "launcher",
-    "gaming",
-    "games",
-    "react",
-    "redux",
-    "reload",
-    "sass",
-    "webpack",
-    "electron"
-  ],
-  "homepage": "https://github.com/NanobugXL/WestgateXLauncher",
-  "bugs": {
-    "url": "https://github.com/NanobugXL/WestgateXLauncher/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NanobugXL/WestgateXLauncher.git"
-  },
-  "license": "MIT",
-  "author": {
-    "name": "WestgateXL",
-    "email": "westgateteam@outlook.com",
-    "url": "https://discord.io/westgate"
-  },
-  "main": "./app/main.prod.js",
   "scripts": {
     "build-antd": "lessc --js ./antd/index.less ./app/antd.css",
     "build": "yarn build-antd && concurrently \"yarn build-main\" \"yarn build-renderer\"",
@@ -62,6 +35,33 @@
     "test-e2e-live": "node -r @babel/register ./internals/scripts/CheckBuiltsExist.js && cross-env NODE_ENV=test testcafe-live electron:./ ./test/e2e/HomePage.e2e.js",
     "test-watch": "yarn test --watch"
   },
+  "keywords": [
+    "minecraft",
+    "launcher",
+    "gaming",
+    "games",
+    "react",
+    "redux",
+    "reload",
+    "sass",
+    "webpack",
+    "electron"
+  ],
+  "homepage": "https://github.com/NanobugXL/WestgateXLauncher",
+  "bugs": {
+    "url": "https://github.com/NanobugXL/WestgateXLauncher/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NanobugXL/WestgateXLauncher.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "WestgateXL",
+    "email": "westgateteam@outlook.com",
+    "url": "https://discord.io/westgate"
+  },
+  "main": "./app/main.prod.js",
   "jest": {
     "moduleDirectories": [
       "node_modules",
