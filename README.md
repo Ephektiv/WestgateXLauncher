@@ -8,7 +8,7 @@
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher?ref=badge_large) <img width="500" height="auto" src="https://i.imgur.com/MZzwbT8.gif" alt="Manage Instances">
 
-[View Larger Image](https://i.imgur.com/2FgAPfZ.png)
+[View Larger Image](https://i.imgur.com/MZzwbT8.gifv)
 
 <details>
  <summary><strong>Table of Contents</strong> (click to expand)</summary>
