@@ -45,6 +45,7 @@ before_install:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then export CXX="g++-8"; fi
 
 install:
+  - npm install -g codecov
   - yarn
   # On Linux, initialize "virtual display". See before_script
   - |
@@ -68,6 +69,8 @@ before_script:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sleep 3; fi
 
 script:
+  - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
+  - codecov
   - yarn package-ci
   # - yarn lint
   # - yarn flow
