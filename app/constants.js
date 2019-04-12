@@ -11,8 +11,9 @@ export const APPPATH = getAppPath();
 export const DATAPATH = path.join(
   process.env.APPDATA ||
     (electron.app || electron.remote.app).getPath('userData'),
-  'WestgateXLauncher'
+  'WestgateXL'
 );
+export const CLASSPATH_DIVIDER_CHAR = platform() === WINDOWS ? ';' : ':';
 export const LAUNCHER_FOLDER = 'launcherData';
 export const INSTANCES_FOLDER = 'instances';
 export const SERVERS_PATH = path.join(DATAPATH, 'servers');
@@ -24,11 +25,14 @@ export const GAME_VERSIONS_URL =
 export const FORGE_PROMOS =
   'https://staging_cursemeta.dries007.net/api/v3/direct/minecraft/modloader';
 export const ACCESS_TOKEN_VALIDATION_URL =
-  'https://authserver.mojang.com/validate';
+'https://authserver.mojang.com/validate';
+
+// Mojang API Endpoints
+export const LOGIN_API = 'https://authserver.mojang.com/authenticate';
 export const ACCESS_TOKEN_REFRESH_URL = 'https://authserver.mojang.com/refresh';
+
 export const MAVEN_REPO = 'http://central.maven.org/maven2';
 export const MC_LIBRARIES_URL = 'https://libraries.minecraft.net';
-export const LOGIN_API = 'https://authserver.mojang.com/authenticate';
 export const GDL_COMPANION_MOD_URL = 'https://gdevs.io/GDLCompanion.jar';
 export const GDL_LEGACYJAVAFIXER_MOD_URL =
   'https://gdevs.io/legacyjavafixer-1.0.jar';
@@ -45,7 +49,7 @@ export const DEFAULT_ARGS = `-Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInv
     : ''
 } -Xms256m -Xmx{_RAM_}m`;
 export const UPDATE_URL =
-  'https://raw.githubusercontent.com/NanobugXL/WingateXLauncher/master/package.json';
+  'https://raw.githubusercontent.com/NanobugXL/WestgateXLauncher/master/package.json';
 export const THEMES = {
   default: {
     name: 'Default',
@@ -69,10 +73,26 @@ export const THEMES = {
     'secondary-color-3': '#13171a'
   },
   bloodyMurder: {
-    name: 'Bloody Murder',
+    name: 'GD Launcher',
     primary: '#aa1e0f',
     'secondary-color-1': '#282c2f',
     'secondary-color-2': '#14181b',
     'secondary-color-3': '#000407'
+  },
+  westgateXL: {
+    name: 'WestgateXL',
+    primary: '#23272A',
+    'secondary-color-1': '#3E3E47',
+    'secondary-color-2': '#3889BF',
+    'secondary-color-3': '#69A9D5',
+    'secondary-color-4': '#c9cfd5'
+  },
+    westgateXL2: {
+    name: 'WestgateXL Discord',
+    primary: '#23272A',
+    'secondary-color-1':'#3E4347',
+    'secondary-color-2':'#7289da',
+    'secondary-color-3': '#3889BF',
+    'secondary-color-4': '#C9CFD5',
   }
 };

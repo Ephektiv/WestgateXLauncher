@@ -186,11 +186,11 @@ const SideBar = props => {
       <hr style={{ margin: 0 }} />
       <div className={styles.socialsContainer}>
         {/* eslint-disable */}
-        {/* <SocialIcon icon="twitter" url="https://twitter.com/gorilladevs" /> */}
-        <SocialIcon icon={faFacebook} url="https://facebook.com/gorilladevs" />
+        <SocialIcon icon="twitter" url="https://twitter.com/westgatexl" />
+        <SocialIcon icon={faFacebook} url="m.me/WestgateStudio" />
         <SocialIcon
           icon={faDiscord}
-          url="https://discordapp.com/invite/4cGYzen"
+          url="https://discordapp.com/invite/6yzJA5d"
         />
         <span className={styles.version}>
           <Link to={{ pathname: '/changelogs', state: { modal: true } }}>

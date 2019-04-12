@@ -69,6 +69,7 @@ export default class Home extends Component<Props> {
                       <a
                         href="https://www.buymeacoffee.com/WestgateXL"
                         className={styles.bymecoffeeText}
+                      target="_new"
                       >
                         Patreon
                       </a>
@@ -82,18 +83,18 @@ export default class Home extends Component<Props> {
                   <div>
                     You can find us here:
                     <div className={styles.discord}>
-                      <a href="https://discord.gg/ZxRxPqn">Discord</a>
+                      <a href="https://discord.gg/6yzJA5d" target="_new">Discord</a>
                     </div>
                     <div className={styles.github}>
-                      <a href="https://github.com/nanobugxl/WestgateXLauncher">
+                      <a href="https://github.com/NanobugXL/WestgateXLauncher" target="_new">
                         Github
                       </a>
                     </div>
                     <div className={styles.instagram}>
-                      <a href="https://twitter.com/westgatexl">Twitter</a>
+                      <a href="https://twitter.com/westgatexl" target="_new">Twitter</a>
                     </div>
                     <div className={styles.facebook}>
-                      <a href="https://facebook.com/westgatestudios">Facebook</a>
+                      <a href="https://fb.me/westgatestudio" target="_new">Facebook</a>
                     </div>
                   </div>
                 </div>

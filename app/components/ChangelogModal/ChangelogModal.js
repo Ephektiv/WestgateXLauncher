@@ -12,7 +12,7 @@ export default props => {
   }, []);
 
   const openDiscord = () => {
-    require('electron').shell.openExternal('https://discord.gg/ZxRxPqn');
+    require('electron').shell.openExternal('https://discord.gg/6yzJA5d');
   };
 
   return (
@@ -43,7 +43,7 @@ export default props => {
               secondary="depending on your connection"
             />
             <ChangelogRow
-              main="We now show the 'Playing on WingateXLauncher' presence on discord"
+              main="We now show the 'Playing on WestgateXLauncher' presence on discord"
               secondary="hurraah!"
             />
             <ChangelogRow
@@ -60,7 +60,7 @@ export default props => {
             />
           </ul>
         </div>
-        <h2 className={styles.hrTextRed}>SOME BUGFIXES</h2>
+        <h2 className={styles.hrTextRed}>SOME BUG FIXES</h2>
         <div className={styles.subHrList}>
           <ul>
             <ChangelogRow

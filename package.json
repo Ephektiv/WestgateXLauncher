@@ -1,7 +1,7 @@
 {
-  "name": "wingatexlauncher",
+  "name": "westgatexlauncher",
   "version": "0.11.9",
-  "description": "WingateXLauncher is simple, yet powerful Minecraft custom launcher with a strong focus on the user experience",
+  "description": "WestgateXLauncher is simple, yet powerful Minecraft custom launcher with a strong focus on the user experience",
   "keywords": [
     "minecraft",
     "launcher",
@@ -14,13 +14,13 @@
     "webpack",
     "electron"
   ],
-  "homepage": "https://github.com/NanobugXL/WingateXLauncher",
+  "homepage": "https://github.com/NanobugXL/WestgateXLauncher",
   "bugs": {
-    "url": "https://github.com/NanobugXL/WingateXLauncher/issues"
+    "url": "https://github.com/NanobugXL/WestgateXLauncher/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NanobugXL/WingateXLauncher.git"
+    "url": "git+https://github.com/NanobugXL/WestgateXLauncher.git"
   },
   "license": "MIT",
   "author": {
@@ -297,7 +297,7 @@
     "publish": {
       "provider": "github",
       "owner": "nanobugxl",
-      "repo": "WingateXLauncher",
+      "repo": "WestgateXLauncher",
       "private": false
     }
   },
@@ -326,5 +326,5 @@
       "git add"
     ]
   },
-  "productName": "WingateXLauncher"
+  "productName": "WestgateXLauncher"
 }

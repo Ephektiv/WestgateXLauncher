@@ -1,4 +1,4 @@
-# WingateXLauncher
+# WestgateXLauncher
 
 <p align="center">
     <img width="800" height="auto" src="https://i.imgur.com/P6tCDlc.png" alt="WestgateXL" />
@@ -6,7 +6,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher?ref=badge_large)<img width="450" height="auto" src="https://i.imgur.com/2FgAPfZ.png" alt="Manage Instances">
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNanobugXL%2FWestgateXLauncher.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FNanobugXL%2FWestgateXLauncher?ref=badge_large)<img width="450" height="auto" src="https://i.imgur.com/2FgAPfZ.png" alt="Manage Instances">
 
 [View Larger Image](https://i.imgur.com/2FgAPfZ.png)
 
@@ -36,7 +36,7 @@ Below you will find anything you need to know about the launcher. If you want to
 
 ## 🎮 Download
 
-To download the latest version, you can either click [here](https://github.com/NanobugXL/WingateXLauncher/releases) and select the appropriate version for your operating system or visit our [website](https://westgatestudios.xyz).
+To download the latest version, you can either click [here](https://github.com/NanobugXL/WestgateXLauncher/releases) and select the appropriate version for your operating system or visit our [website](https://westgatestudios.xyz).
 
 ## 🎨 Features (Working on)
 
@@ -75,7 +75,7 @@ You need the following softwares installed:
 Install the dependencies and devDependencies.
 
 ```sh
-$ cd WingateXLauncher
+$ cd WestgateXLauncher
 $ yarn
 ```
 
@@ -121,7 +121,7 @@ $ yarn package-win
 - [Ant Design](https://ant.design/) - UI Design Language
 
 ## 🎁 Contributing
-[view here first](#WingateXLauncher/blob/master/Contributing.md)
+[view here first](#WestgateXLauncher/blob/master/Contributing.md)
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
@@ -138,7 +138,7 @@ We use [SemVer](http://semver.org) as versioning system.
 - **Westgate Studios** _The Company of Course_ - [Westgate Studios](https://github.com/WestgateStudios)
 - **NanobugXL** _Because-Y-Not?_ - [NanobugXL](https://github.com/nanobugxl)
 
-See also the list of [contributors](https://github.com/NanobugXL/WingateXLauncher/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/NanobugXL/WestgateXLauncher/contributors) who participated in this project.
 
 ## 🎓 License
 
@@ -152,9 +152,9 @@ Here is the complete list of things we want to do. If you want to help us doing 
 ## ✏️ Bug Reports
 
 Please use the link below to post a Report
-[POST HERE FIRST](https://github.com/NanobugXL/WingateXLauncher/issues/new/choose)
+[POST HERE FIRST](https://github.com/NanobugXL/WestgateXLauncher/issues/new/choose)
 [VIEW THE REPORTS HERE](https://github.com/users/NanobugXL/projects/1#column-5039882)
 
 ## View Fossa Reports
 
-[VIEW FOSSA REPORTS](https://app.fossa.com/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher/history/builds)
+[VIEW FOSSA REPORTS](https://app.fossa.com/projects/git%2Bgithub.com%2FNanobugXL%2FWestgateXLauncher/history/builds)

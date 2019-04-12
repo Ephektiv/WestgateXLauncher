@@ -33,7 +33,7 @@ const DiscordModal = ({ match, history }) => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://gorilladevs.com/terms"
+            href="https://github.com/NanobugXL/WestgateXLauncher/wiki/Terms-and-Services#welcome-to-westgate-studios"
           >
             If you want to know more, you can check out our Terms of Service
           </a>

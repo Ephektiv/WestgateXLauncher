@@ -293,7 +293,7 @@ export default class DInstance extends Component<Props> {
               exec(
                 `powershell $s=(New-Object -COM WScript.Shell).CreateShortcut('%userprofile%\\Desktop\\${name}.lnk');$s.TargetPath='${path.join(
                   APPPATH,
-                  'WingateXLauncher.exe'
+                  'WestgateXLauncher.exe'
                 )}';$s.Arguments='-i ${name}';$s.Save()`,
                 error => {
                   if (error) {
@@ -302,7 +302,7 @@ export default class DInstance extends Component<Props> {
                       <span>
                         Error while crerating the shortcut. Click{' '}
                         <a
-                          href="https://github.com/NanobugXL/WingateXLauncher/wiki/Error-while-creating-an-instance's-shortcut"
+                          href="https://github.com/NanobugXL/WestgateXLauncher/wiki/Error-while-creating-an-instance's-shortcut"
                           target="_blank"
                           rel="noopener noreferrer"
                         >

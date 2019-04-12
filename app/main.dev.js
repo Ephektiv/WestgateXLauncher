@@ -134,12 +134,12 @@ if (minimist(process.argv.slice(1)).i) {
 
 
       // Sets the DISCORD-RPC
-      const clientId = '555898932467597312';
+      const clientId = '231623609637011456';
       let rpc = new DiscordRPC.Client({ transport: 'ipc' });
       rpc.once('ready', () => {
         rpc.setActivity({
-          details: `Becoming a Gorilla`,
-          state: 'Grrrrrrrr',
+          details: `Becoming a Pro Builder`,
+          state: 'Minehitect',
           startTimestamp: Math.floor(Date.now() / 1000),
           largeImageKey: 'default_big',
           largeImageText: 'WestgateXLauncher - A Custom Minecraft Launcher',

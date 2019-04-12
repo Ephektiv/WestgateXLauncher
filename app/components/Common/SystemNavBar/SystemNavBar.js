@@ -13,7 +13,7 @@ export default class SystemNavBar extends Component<Props> {
   render() {
     return (
       <div className={styles.container}>
-        <OpenDevTools />
+        {/* <OpenDevTools /> */}
         <WindowCloseBtn />
         <WindowMinimizeBtn />
         <WindowHideBtn />
