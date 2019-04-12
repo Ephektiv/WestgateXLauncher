@@ -4,7 +4,7 @@
     <img width="800" height="auto" src="https://i.imgur.com/P6tCDlc.png" alt="WestgateXL" />
 </p>
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)[![Build Status](https://img.shields.io/travis/NanobugXL/WestgateXLauncher/master.svg?style=for-the-badge)](https://travis-ci.org/NanobugXL/WestgateXLauncher)[![Test Coverage](https://img.shields.io/codecov/c/github/NanobugXL/WestgateXLauncher/master.svg?style=for-the-badge)](https://codecov.io/github/NanobugXL/WestgateXLauncher?branch=master)[![devDependency Status](https://img.shields.io/david/dev/NanobugXL/WestgateXLauncher.svg?style=for-the-badge)](https://david-dm.org/NanobugXL/WestgateXLauncher#info=devDependencies)
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher?ref=badge_large) <img width="500" height="auto" src="https://github.com/NanobugXL/WestgateXLauncher/blob/master/resources/WestgateDemo.gif?raw=true" alt="Launcher Demo">
 
@@ -158,3 +158,5 @@ Please use the link below to post a Report
 ## View Fossa Reports
 
 [VIEW FOSSA REPORTS](https://app.fossa.com/projects/git%2Bgithub.com%2FNanobugXL%2FWestgateXLauncher/history/builds)
+
+[![Build Status](https://img.shields.io/github/forks/NanobugXL/WestgateXLauncher.svg?style=for-the-badge)](https://github.com/NanobugXL/WestgateXLauncher) [![License](https://img.shields.io/github/license/NanobugXL/WestgateXLauncher.svg?style=for-the-badge)](https://github.com/NanobugXL/WestgateXLauncher)
