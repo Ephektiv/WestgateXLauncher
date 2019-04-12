@@ -157,6 +157,4 @@ Please use the link below to post a Report
 
 ## View Fossa Reports
 
-[VIEW FOSSA REPORTS](https://app.fossa.com/projects/git%2Bgithub.com%2FNanobugXL%2FWestgateXLauncher/history/builds)
-
-[![Build Status](https://img.shields.io/github/forks/NanobugXL/WestgateXLauncher.svg?style=for-the-badge)](https://github.com/NanobugXL/WestgateXLauncher) [![License](https://img.shields.io/github/license/NanobugXL/WestgateXLauncher.svg?style=for-the-badge)](https://github.com/NanobugXL/WestgateXLauncher)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher.svg?style=for-the-badge)](https://app.fossa.com/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher?ref=badge_shield) [![Build Status](https://img.shields.io/github/forks/NanobugXL/WestgateXLauncher.svg?style=for-the-badge)](https://github.com/NanobugXL/WestgateXLauncher) [![License](https://img.shields.io/github/license/NanobugXL/WestgateXLauncher.svg?style=for-the-badge)](https://github.com/NanobugXL/WestgateXLauncher)
