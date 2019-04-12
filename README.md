@@ -6,9 +6,9 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher?ref=badge_large) <img width="500" height="auto" src="https://i.imgur.com/MZzwbT8.gif" alt="Manage Instances">
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher?ref=badge_large) <img width="500" height="auto" src="https://github.com/NanobugXL/WestgateXLauncher/blob/master/resources/WestgateDemo.gif?raw=true" alt="Launcher Demo">
 
-[View Larger Image](https://i.imgur.com/MZzwbT8.gif)
+[View Larger Image](https://github.com/NanobugXL/WestgateXLauncher/blob/master/resources/WestgateDemo.gif?raw=true)
 
 <details>
  <summary><strong>Table of Contents</strong> (click to expand)</summary>
