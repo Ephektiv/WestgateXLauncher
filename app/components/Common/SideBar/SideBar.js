@@ -9,8 +9,8 @@ import _ from 'lodash';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
-import {faDiscord, faFacebook} from '@fortawesome/free-brands-svg-icons';
+import { faSignOutAlt, faBlog, faBug } from '@fortawesome/free-solid-svg-icons';
+import {faDiscord, faFacebook, faTwitter, faReddit} from '@fortawesome/free-brands-svg-icons';
 import { promisify } from 'util';
 import CIcon from '../Icon/Icon';
 import SocialIcon from './SocialIcon';
@@ -88,6 +88,11 @@ const SideBar = props => {
       <div className={styles.instanceTitle}>
         <h2>Bookmarked Servers</h2>
         No server
+      </div>
+      <hr />
+      <div className={styles.instanceTitle}>
+        <h2>WestgateXL Servers</h2>
+        <h4 style={{ color: '#228B22' }}>🖥 158.69.33.159:25567</h4>
       </div>
       <hr />
       <div className={styles.instanceTitle}>
@@ -186,15 +191,18 @@ const SideBar = props => {
       <hr style={{ margin: 0 }} />
       <div className={styles.socialsContainer}>
         {/* eslint-disable */}
-        <SocialIcon icon="twitter" url="https://twitter.com/westgatexl" />
-        <SocialIcon icon={faFacebook} url="m.me/WestgateStudio" />
-        <SocialIcon
-          icon={faDiscord}
-          url="https://discordapp.com/invite/6yzJA5d"
-        />
+        <SocialIcon icon={faTwitter} url="https://twitter.com/westgatexl" />
+        <SocialIcon icon={faFacebook} url="https://m.me/WestgateStudio" />
+        <SocialIcon icon={faDiscord} url="https://discordapp.com/invite/6yzJA5d" />
+        <SocialIcon icon={faReddit} url="https://www.reddit.com/r/WestgateStudio/" />
+        <SocialIcon icon={faBlog} url="https://www.reddit.com/r/WestgateStudio/" />
+        <SocialIcon icon={faBug} url="https://github.com/NanobugXL/WestgateXLauncher/issues" />
+        
+        <div style={{ display: 'block', margin: '10px auto' }} /> 
+
         <span className={styles.version}>
           <Link to={{ pathname: '/changelogs', state: { modal: true } }}>
-            v{require('../../../../package.json').version}
+          <p /><p />v{require('../../../../package.json').version}
           </Link>
         </span>
         {/* eslint-enable */}
