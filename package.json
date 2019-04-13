@@ -1,6 +1,6 @@
 {
   "name": "westgatexlauncher",
-  "version": "1.17.2",
+  "version": "1.17.3",
   "description": "WestgateXLauncher is simple, yet powerful Minecraft custom launcher with a strong focus on the user experience",
   "scripts": {
     "build-antd": "lessc --js ./antd/index.less ./app/antd.css",
