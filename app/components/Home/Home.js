@@ -58,20 +58,20 @@ export default class Home extends Component<Props> {
                   minWidth: 420,
                   display: 'block',
                   marginTop: 15,
-                  textAlign: 'center'
+                  textAlign: 'left'
                 }}
                 title={`Welcome to Wingate Studios ${this.props.username} `}
               >
                 <div className={styles.firstCard}>
                   <div>
                     <span className={styles.titleHeader}>
-                    WestgateXLauncher is now on{' '}
+                    Keep us powered with {' '}
                       <a
                         href="https://www.buymeacoffee.com/WestgateXL"
-                        className={styles.bymecoffeeText}
+                        className={styles.patreonText}
                       target="_new"
                       >
-                        Patreon
+                         Coffee <i class="fas fa-coffee" />
                       </a>
                     </span>
                     <div className={styles.bymecoffeeContent}>
@@ -80,6 +80,7 @@ export default class Home extends Component<Props> {
                       supporting the project. Happy Gaming!
                     </div>
                   </div>
+                  
                   <div>
                     You can find us here:
                     <div className={styles.discord}>
@@ -99,6 +100,7 @@ export default class Home extends Component<Props> {
                   </div>
                 </div>
               </Card>
+
               <Card
                 style={{
                   height: 170,
@@ -108,27 +110,23 @@ export default class Home extends Component<Props> {
                   marginTop: 15,
                   textAlign: 'center'
                 }}
-                title="Try out the new v1.13.2"
+                title="Default: v1.13.2"
               >
-                V1.13.2 has just been released. Wanna try it out?
+                v1.14.2 Pre-Release has just been released, create an instance!
                 {this.state.latestBtnClicked || this.state.latestInstalled ? (
-                  <Link
-                    to="/dmanager"
-                    style={{ display: 'block', margin: '35px auto' }}
-                  >
-                    Go to your instances
+                  <Link to="/dmanager" style={{ display: 'block', margin: '35px auto' }}
+                  >View Your Instances
                   </Link>
+                  
                 ) : (
-                  <Button
-                    type="primary"
-                    loading={this.props.packCreationLoading}
+                  <Button type="primary" loading={this.props.packCreationLoading}
                     style={{ display: 'block', margin: '35px auto' }}
                     onClick={() => {
                       this.props.createPack('1.13.2', '1.13.2');
                       this.setState({ latestBtnClicked: true });
                     }}
                   >
-                    Install and Start v1.13.2
+                    Install v1.13.2
                   </Button>
                 )}
               </Card>

@@ -23,72 +23,40 @@ export default props => {
       style={{ height: '70vh', width: 540 }}
     >
       <div className={styles.container}>
-        <h2 className={styles.hrTextGreen}>SOME COOL NEW STUFF</h2>
+        {/* <h2 className={styles.hrTextGreen}>SOME COOL NEW STUFF</h2>
         <div className={styles.subHrList}>
           <ul>
             <ChangelogRow
               main="We are refactoring quite a few parts of the code"
               secondary=", this will allow us to easily add features later on"
             />
-            <ChangelogRow
-              main="Drastically improved rendering performance"
-              secondary=", it should now be 2x faster"
-            />
-            <ChangelogRow
-              main="Modpacks icons are automatically set as instance icon when downloading them"
-              secondary=""
-            />
-            <ChangelogRow
-              main="Modpacks downloads should now be 4x faster"
-              secondary="depending on your connection"
-            />
-            <ChangelogRow
-              main="We now show the 'Playing on WestgateXLauncher' presence on discord"
-              secondary="hurraah!"
-            />
-            <ChangelogRow
-              main="Updated the download progress style when downloading instances"
-              secondary="do you like it??"
-            />
-            <ChangelogRow
-              main="You can now change the java arguments from the launcher settings!"
-              secondary="It will apply to all the instances"
-            />
-            <ChangelogRow
-              main="Instances now have an animation when appearing."
-              secondary="This will fix icons 'flashing' for a split second"
-            />
+
           </ul>
-        </div>
-        <h2 className={styles.hrTextRed}>SOME BUG FIXES</h2>
+        </div> */}
+        <h2 className={styles.hrTextRed}>CHANGE LOG</h2>
         <div className={styles.subHrList}>
           <ul>
             <ChangelogRow
-              main="Fixed the news not working"
-              secondary=", not our fault. Minecraft.net changed it..."
-            />
+              main="Fixed some Social Media Icons for ya."
+              secondary=" Not all of them were showing, plus we've added more for ya!" />
+            <img src="https://i.imgur.com/GbWW3EF.png" width="400px" />
+          </ul>
+          <ul>
             <ChangelogRow
-              main="Removed various errors stacking up"
-              secondary="when java was not found"
-            />
-            <ChangelogRow
-              main="Fixed mods dependancies not being correctly downloaded"
-              secondary=" yeeeee"
-            />
-            <ChangelogRow
-              main="Fixed broken mods and modpacks results"
-              secondary="when the text contained whitespaces"
-            />
-            <ChangelogRow
-              main="Fixed closing modal animation not working"
-              secondary="when creating a new instance"
-            />
+              main="We've added our own Servers underneth the Bookmarked Servers"
+              secondary=" More for you and your friends convienences. Ey, the more the better right?!" />
+            <img src="https://i.imgur.com/MoDiD47.png" width="200px" />
           </ul>
         </div>
+
         <h2 className={styles.hrTextYellow}>WE LOVE YOU</h2>
         <span className={styles.summary}>
           We love our users, that's why we have a dedicated discord server just
-          to talk with all of them :)
+          to talk with all of YOU ❤
+          
+          <div style={{ display: 'block', margin: '35px auto' }} /> 
+
+           <a href="https://github.com/NanobugXL/WestgateXLauncher/issues/new/choose"> Report Bug</a>
         </span>
         <br />
         <img
