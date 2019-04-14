@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, Icon, Button } from 'antd';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faPlay, faThList } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faPlay, faThList, faCircle, faUserCircle, faCubes, faUser } from '@fortawesome/free-solid-svg-icons';
 import Badge from '../../../Badge/Badge';
 import styles from './HorizontalMenu.scss';
 import logo from '../../../../../assets/images/logo.png';
@@ -26,7 +26,7 @@ export default props => {
         >
           <Link to="/home" draggable="false" className={styles.a}>
             <FontAwesomeIcon icon={faHome} className={styles.i} />
-            HOME
+            Home
           </Link>
         </li>
         <li
@@ -36,7 +36,7 @@ export default props => {
         >
           <Link to="/dmanager" draggable="false" className={styles.a}>
             <FontAwesomeIcon icon={faPlay} className={styles.i} />
-            INSTANCES
+            Instances
           </Link>
         </li>
         <li
@@ -50,8 +50,33 @@ export default props => {
             className={styles.a}
           >
             <FontAwesomeIcon icon={faThList} className={styles.i} />
-            MODPACKS
+            Modpacks
           </Link>
+          <li
+          className={`${styles.li} ${
+            isLocation('/mcwiki') ? styles.activeLink : null
+          }`}
+        >
+          <Link
+            to="/mcwiki"
+            draggable="false"
+            className={styles.a}
+          >
+            <FontAwesomeIcon icon={faCubes} className={styles.i} />
+            Minecraft Wiki
+          </Link>
+        </li>
+        <li
+          className={`${styles.li} ${
+            isLocation('/mojang') ? styles.activeLink : null
+          }`}
+        >
+          <Link to="/mojang" draggable="false" className={styles.a}>
+            <FontAwesomeIcon icon={faUser} className={styles.i} />
+            My Account
+          </Link>
+        </li>
+
         </li>
         {/* <li className={styles.li}>
             <Link
@@ -65,6 +90,7 @@ export default props => {
               SERVERS
             </Link>
           </li> */}
+          
       </ul>
     </div>
   );

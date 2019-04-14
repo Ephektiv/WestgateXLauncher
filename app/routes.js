@@ -23,8 +23,11 @@ import Settings from './components/Settings/Settings';
 import CurseModpacksBrowser from './components/CurseModpacksBrowser/CurseModpacksBrowser';
 import NewUserPage from './components/NewUserPage/NewUserPage';
 
+
 const Login = lazy(() => import('./components/Login/Login'));
 const HomePage = lazy(() => import('./components/Home/containers/HomePage'));
+const MCWiki = lazy(() => import('./components/Common/MCWiki/MCWiki'));
+const Mojang = lazy(() => import('./components/Common/Mojang/Mojang'));
 const AutoUpdate = lazy(() => import('./components/AutoUpdate/AutoUpdate'));
 const ServerManager = lazy(() =>
   import('./components/ServerManager/ServerManager')
@@ -198,6 +201,8 @@ class RouteDef extends Component<Props> {
                   component={CurseModpacksBrowser}
                 />
                 <Route path="/home" component={WaitingComponent(HomePage)} />
+                <Route path="/mcwiki" component={WaitingComponent(MCWiki)} />
+                <Route path="/mojang" component={WaitingComponent(Mojang)} />
                 <Route
                   path="/serverManager"
                   component={WaitingComponent(ServerManager)}

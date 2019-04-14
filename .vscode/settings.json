@@ -30,5 +30,6 @@
   "typescript.format.enable": false,
   "npm.packageManager": "yarn",
   "tslint.packageManager": "yarn",
-  "eslint.packageManager": "yarn"
+  "eslint.packageManager": "yarn",
+  "git.postCommitCommand": "push"
 }
