@@ -6,11 +6,11 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-[![Build Status](https://img.shields.io/travis/NanobugXL/WestgateXLauncher/master.svg?style=for-the-badge)](https://travis-ci.org/NanobugXL/WestgateXLauncher)[![Test Coverage](https://img.shields.io/codecov/c/github/NanobugXL/WestgateXLauncher/master.svg?style=for-the-badge)](https://codecov.io/github/NanobugXL/WestgateXLauncher?branch=master)[![devDependency Status](https://img.shields.io/david/dev/NanobugXL/WestgateXLauncher.svg?style=for-the-badge)](https://david-dm.org/NanobugXL/WestgateXLauncher#info=devDependencies)
+[![Build Status](https://img.shields.io/travis/NanobugXL/FiVVR/master.svg?style=for-the-badge)](https://travis-ci.org/NanobugXL/WestgateXLauncher)[![Test Coverage](https://img.shields.io/codecov/c/github/NanobugXL/WestgateXLauncher/master.svg?style=for-the-badge)](https://codecov.io/github/NanobugXL/WestgateXLauncher?branch=master)[![devDependency Status](https://img.shields.io/david/dev/FiVVR/WestgateXLauncher.svg?style=for-the-badge)](https://david-dm.org/FiVVR/WestgateXLauncher#info=devDependencies)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher?ref=badge_large) <img width="500" height="auto" src="https://github.com/NanobugXL/WestgateXLauncher/blob/master/resources/WestgateDemo.gif?raw=true" alt="Launcher Demo">
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FFiVVR%2FWingateXLauncher.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FFiVVR%2FWingateXLauncher?ref=badge_large) <img width="500" height="auto" src="https://github.com/FiVVR/WestgateXLauncher/blob/master/resources/WestgateDemo.gif?raw=true" alt="Launcher Demo">
 
-[View Larger Image](https://github.com/NanobugXL/WestgateXLauncher/blob/master/resources/WestgateDemo.gif?raw=true)
+[View Larger Image](https://github.com/FiVVR/WestgateXLauncher/blob/master/resources/WestgateDemo.gif?raw=true)
 
 <details>
  <summary><strong>Table of Contents</strong> (click to expand)</summary>
@@ -34,11 +34,11 @@ WestgateXL is a custom Minecraft launcher written from the ground up in electron
 
 ## 🚀 Getting Started
 
-Below you will find anything you need to know about the launcher. If you want to download a stable release you can do it from our official website: https://westgatestudios.xyz, if you want the latest testing features you can clone the repo and compile it yourself.
+Below you will find anything you need to know about the launcher. If you want to download a stable release you can do it from our official website: https://braxon.com, if you want the latest testing features you can clone the repo and compile it yourself.
 
 ## 🎮 Download
 
-To download the latest version, you can either click [here](https://github.com/NanobugXL/WestgateXLauncher/releases) and select the appropriate version for your operating system or visit our [website](https://westgatestudios.xyz).
+To download the latest version, you can either click [here](https://github.com/FiVVR/WestgateXLauncher/releases) and select the appropriate version for your operating system or visit our [website](https://braxon.com).
 
 ## 🎨 Features (Working on)
 
@@ -137,10 +137,10 @@ We use [SemVer](http://semver.org) as versioning system.
 ## ❤️ Authors
 
 - **Davide Ceschia** - _Initial work_ - [GorillaDevs](https://github.com/gorilla-devs) Thanks bro
-- **Westgate Studios** _The Company of Course_ - [Westgate Studios](https://github.com/WestgateStudios)
-- **NanobugXL** _Because-Y-Not?_ - [NanobugXL](https://github.com/nanobugxl)
+- **Westgate Studios** _The Company of Course_ - [Westgate Studios](https://github.com/Braxon)
+- **NanobugXL** _Because-Y-Not?_ - [FiVVR](https://github.com/FiVVR)
 
-See also the list of [contributors](https://github.com/NanobugXL/WestgateXLauncher/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/FiVVR/WestgateXLauncher/contributors) who participated in this project.
 
 ## 🎓 License
 
@@ -149,14 +149,14 @@ This project is licensed under the GNU GPL V3.0 - see the [LICENSE](LICENSE) fil
 ## ✏️ Todos
 
 Here is the complete list of things we want to do. If you want to help us doing them or want to suggest some new ideas, comment here!
-[TODOS/IDEAS](https://github.com/users/NanobugXL/projects/1#column-5040297)
+[TODOS/IDEAS](https://github.com/users/FiVVR/projects/1#column-5040297)
 
 ## ✏️ Bug Reports
 
 Please use the link below to post a Report
-[POST HERE FIRST](https://github.com/NanobugXL/WestgateXLauncher/issues/new/choose)
-[VIEW THE REPORTS HERE](https://github.com/users/NanobugXL/projects/1#column-5039882)
+[POST HERE FIRST](https://github.com/FiVVR/WestgateXLauncher/issues/new/choose)
+[VIEW THE REPORTS HERE](https://github.com/users/FiVVR/projects/1#column-5039882)
 
 ## View Fossa Reports
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher.svg?style=for-the-badge)](https://app.fossa.com/projects/git%2Bgithub.com%2FNanobugXL%2FWingateXLauncher?ref=badge_shield) [![Build Status](https://img.shields.io/github/forks/NanobugXL/WestgateXLauncher.svg?style=for-the-badge)](https://github.com/NanobugXL/WestgateXLauncher) [![License](https://img.shields.io/github/license/NanobugXL/WestgateXLauncher.svg?style=for-the-badge)](https://github.com/NanobugXL/WestgateXLauncher)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FFiVVR%2FWingateXLauncher.svg?style=for-the-badge)](https://app.fossa.com/projects/git%2Bgithub.com%2FFiVVR%2FWingateXLauncher?ref=badge_shield) [![Build Status](https://img.shields.io/github/forks/FiVVR/WestgateXLauncher.svg?style=for-the-badge)](https://github.com/FiVVR/WestgateXLauncher) [![License](https://img.shields.io/github/license/FiVVR/WestgateXLauncher.svg?style=for-the-badge)](https://github.com/FiVVR/WestgateXLauncher)
