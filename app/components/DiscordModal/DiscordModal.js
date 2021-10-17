@@ -9,7 +9,7 @@ const DiscordModal = ({ match, history }) => {
     <Modal history={history}>
       <iframe
         title="discordwidget"
-        src="https://discordapp.com/widget?id=398091532881756161&theme=dark"
+        src="https://discord.com/widget?id=696795642768523394&theme=dark"
         frameBorder="0"
         style={{ width: '100%', height: '78vh' }}
       />

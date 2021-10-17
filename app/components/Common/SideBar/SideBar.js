@@ -87,12 +87,12 @@ const SideBar = props => {
       <hr />
       <div className={styles.instanceTitle}>
         <h2>Bookmarked Servers</h2>
-        No server
+        WestgateXL.minehut.gg
       </div>
       <hr />
       <div className={styles.instanceTitle}>
         <h2>WestgateXL Servers</h2>
-        <h4 style={{ color: '#228B22' }}>🖥 158.69.33.159:25567</h4>
+        <h4 style={{ color: '#228B22' }}>🖥 WestgateXL.minehut.gg</h4>
       </div>
       <hr />
       <div className={styles.instanceTitle}>

@@ -84,7 +84,7 @@ export default class Home extends Component<Props> {
                   <div>
                     You can find us here:
                     <div className={styles.discord}>
-                      <a href="https://discord.gg/6yzJA5d" target="_new">Discord</a>
+                      <a href="https://discord.gg/TBEvCVgY" target="_new">Discord</a>
                     </div>
                     <div className={styles.github}>
                       <a href="https://github.com/NanobugXL/WestgateXLauncher" target="_new">
@@ -110,7 +110,7 @@ export default class Home extends Component<Props> {
                   marginTop: 15,
                   textAlign: 'center'
                 }}
-                title="Default: v1.13.2"
+                title="Default: v1.17.1"
               >
                 v1.14.2 Pre-Release has just been released, create an instance!
                 {this.state.latestBtnClicked || this.state.latestInstalled ? (
@@ -122,11 +122,11 @@ export default class Home extends Component<Props> {
                   <Button type="primary" loading={this.props.packCreationLoading}
                     style={{ display: 'block', margin: '35px auto' }}
                     onClick={() => {
-                      this.props.createPack('1.13.2', '1.13.2');
+                      this.props.createPack('1.17.1', '1.17.1');
                       this.setState({ latestBtnClicked: true });
                     }}
                   >
-                    Install v1.13.2
+                    Install v1.17.1
                   </Button>
                 )}
               </Card>
